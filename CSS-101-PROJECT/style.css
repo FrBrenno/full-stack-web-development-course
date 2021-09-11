@@ -1,0 +1,207 @@
+/*General Styling*/
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,
+        Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,
+        Segoe UI Symbol,Noto Color Emoji;
+}
+/*Header Styling*/
+#header a{
+    color: black;
+    text-decoration: none;
+}
+#header{
+    padding: 37px 48px;
+
+}
+#logo{
+    width: 70%;
+    float: left;
+
+}
+#logo_img{
+    height: 64px;
+    margin: auto 20px;
+    float: left;
+}
+#logo_text{
+    
+    font-weight: bold;
+}
+
+#nav_bar{
+    font-size: 20pt;
+    width: 100%;
+}
+
+#nav_bar td{
+    text-align: center;
+}
+
+.here{
+    color: white;
+    border: 5px solid rgba(252, 170 , 103, .3);
+    border-radius: 10px;
+    background-color: rgba(252, 170 , 103, .3);
+}
+
+/*Banner Styling*/
+#banner{
+    height: 240px;
+    background-image: linear-gradient(180.43deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.80) 100%), url(images/robot-banner.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    padding: 160px 50px;
+    margin-bottom: 70px;
+}
+#banner h1, #banner p{
+    color: white;
+}
+#banner .button{
+    margin: 0px 600px;
+}
+.button{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 3px black;
+    font-weight: 700;
+
+}
+.button a{
+    color: black;
+    text-decoration: none;
+}
+/*Content Styling*/
+/*Cards Style*/
+#content p{
+    width: 100%;
+    text-align: center;
+}
+#phrase{
+    font-size: 20pt;
+    display: block;
+}
+.card{
+    display: inline-table;
+    width: 450px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.30);
+    margin:  70px 20px;
+    
+}
+.card_image{
+    width: 450px;
+    height: 450px;
+    background-size: contain;
+    background-position: center center;
+}
+#card_image1{
+    background-image: url(images/card-image-1.jpg);
+}
+#card_image2{
+    background-image: url(images/card-image-2.jpg);
+}
+#card_image3{
+    background-image: url(images/card-image-3.jpg);
+}
+.card_text{
+    height:300px;
+    padding: 50px;
+    text-align: center;
+    font-size: 15pt;
+}
+/*Image and Text Block Style*/
+.blocks{
+    width: 100%;
+}
+.block_image img{
+    width: 600px;
+}
+.block_image{
+    display: inline-block;
+    margin: 0px 400px ;
+}
+.block_text{  
+    display: inline-block;
+    background-image: url(images/grey-pattern.png);
+    width: 30%;
+    position: relative;
+    left: 560px;
+    bottom: 182px; 
+    padding: 30px;
+    color: #fff;
+}
+
+/*quote styling*/
+#quote{
+    font-family: proxima-nova,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.37;
+    color: #212b36;
+}
+
+#attribution{
+    font-family: proxima-nova,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.75px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/*Recall banner styling*/
+#recall{
+    background-color: rgb(252, 120, 13);
+    padding: 50px;
+    font-size: 20px;
+}
+#box{
+    display: inline-block;
+    width: 70%;
+
+}
+#recall .button{
+    float: right;
+    margin: 25px;
+}
+
+
+
+/*Foot Styling*/
+#foot a{
+    color: white;
+    text-decoration: none;
+}
+#foot{
+    padding: 72px 0px;
+    background-color: black;
+    color: white;
+}
+#foot table{
+    margin: auto;
+}
+#foot td{ 
+    padding: 3px 10px;
+    width:max-content;
+}
+.foot_title{
+    font-family: proxima-nova,sans-serif;
+    font-weight: 600;
+    font-size: small;
+    color: rgb(165, 165, 165);
+}
+.foot_item{
+    font-weight: 450;
+}
+#copy{
+    color: grey;
+    font-size: small;
+}

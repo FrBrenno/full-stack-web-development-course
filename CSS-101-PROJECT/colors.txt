@@ -1,0 +1,5 @@
+Primary: orange FCAA67 
+Secondary: blue 0094C6 
+Third: green C3F73A
+Background: offwhite DBE9EE
+Font-letter: offblack 233D4D
