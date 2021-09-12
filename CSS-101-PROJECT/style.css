@@ -76,17 +76,18 @@ body{
 }
 /*Content Styling*/
 /*Cards Style*/
-#content p{
+#content{
     width: 100%;
-    text-align: center;
 }
+
 #phrase{
     font-size: 20pt;
     display: block;
+    text-align: center;
 }
 .card{
     display: inline-table;
-    width: 450px;
+    width: 350px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.30);
     margin:  70px 20px;
     
@@ -107,8 +108,8 @@ body{
     background-image: url(images/card-image-3.jpg);
 }
 .card_text{
-    height:300px;
-    padding: 50px;
+    height:275px;
+    padding:15px;
     text-align: center;
     font-size: 15pt;
 }
@@ -116,20 +117,21 @@ body{
 .blocks{
     width: 100%;
 }
+.block{
+    text-align: right;
+}
 .block_image img{
     width: 600px;
 }
 .block_image{
     display: inline-block;
-    margin: 0px 400px ;
 }
 .block_text{  
     display: inline-block;
-    background-image: url(images/grey-pattern.png);
-    width: 30%;
+    background-image: url(images/grey-pattern.png); 
     position: relative;
-    left: 560px;
-    bottom: 182px; 
+    width: 30%;
+    left: -200px;
     padding: 30px;
     color: #fff;
 }
@@ -204,4 +206,109 @@ body{
 #copy{
     color: grey;
     font-size: small;
+}
+
+
+
+
+/*Services Page*/
+#content.pages{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+.page_title h1{
+    font-weight: 800;
+    font-size: 62px;
+    color:#212b36;
+}
+.page_title p{
+    font-size: 24px;
+}
+#card_image_services1{
+    background-image: url(images/card_image_services1.jpg);
+}
+#card_image_services2{
+    background-image: url(images/card_image_services2.jpg);
+}
+#card_image_services3{
+    background-image: url(images/card_image_services3.jpg);
+}
+.img_card_correction{
+    height: 400px;
+}
+.text_card_correction{
+    height: 200px;
+
+}
+.services_card{
+    margin: 10px 70px;
+}
+.more_details{
+    font-size: 16px;
+    font-weight: 500;
+    color: #b97e31;
+    text-decoration: none;
+}
+
+
+/*Contact page*/
+#col1{
+    display: inline-table;
+    padding: 15px;
+    height: 250px;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.42;
+    color: #000;
+    max-width: 40%;
+}
+#col2{
+    display: inline-table;
+    padding: 15px;
+    height: 250px;
+    width: 50%;
+    position: relative;
+    top: -15px;
+}
+#col2 input, textarea{
+    
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px black;
+}
+#row1{
+    margin: auto;
+}
+
+label{
+    padding-top: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+    color: rgba(235, 162, 28, 0.788);
+    font-family: proxima-nova,sans-serif;
+    font-weight: 600;
+    font-size: large;
+    font-style: normal;
+}
+button{
+    height: 50px ;
+    width: 100px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(235, 162, 28, 1);
+    box-shadow: 2px 2px 1px black;
+    color:black;
+    font-size: 20px;
+    
+    font-weight: 800;
+}
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
