@@ -238,7 +238,7 @@ body{
     height: 400px;
 }
 .text_card_correction{
-    height: 200px;
+    height: 220px;
 
 }
 .services_card{
@@ -282,11 +282,21 @@ body{
     border-radius: 3px;
     box-shadow: 1px 1px 2px black;
 }
+#col2 select{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px black;
+}
+
 #row1{
     margin: auto;
 }
 
 label{
+    margin: 5px 0px;
     padding-top: 10px;
     display: inline-block;
     margin-bottom: 0;
@@ -312,3 +322,79 @@ button{
 form{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+/*Free Products Styling*/
+.free_services_table{
+    width: 100%;
+    font-weight: 300;
+    padding: 20px;
+    
+}
+.free_services_table td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.symbols_table{
+    text-align: center;
+}
+.title_row{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(235 162 28);
+}
+.title_row td{
+    border: none;
+}
+
+/*Sales page style*/
+
+.sale_card{
+    box-shadow: 1px 1px 3px rgba(235, 162, 28, 0.788);
+    margin: 15px;
+    padding-right: 15px;
+    background-color: rgba(235, 162, 28, 1);
+    height: 500px;
+}
+.sale_card_img{
+    height: 500px;
+    max-width: 50%;
+    display: inline-block;
+}
+.sale_card_text{
+    width: 45%;
+    height: 500px;
+    float: right;
+    margin: 5px;
+}
+#product1{
+    background-image: url(images/product1.jpg);
+    background-size: cover;
+    width: 80%;
+}
+#product2{
+    background-image: url(images/product2.jpg);
+    background-size: cover;
+    width: 80%;
+}
+#product3{
+    background-image: url(images/product3.jpg);
+    background-size: cover;
+    width: 80%;
+}
+#product4{
+    background-image: url(images/product4.jpeg);
+    background-size: cover;
+    width: 80%;
+}
+#product5{
+    background-image: url(images/product5.jpg);
+    background-size: cover;
+    width: 80%;
+}
+#product6{
+    background-image: url(images/product6.jpg);
+    background-size: cover;
+    width: 80%;
+}
+
